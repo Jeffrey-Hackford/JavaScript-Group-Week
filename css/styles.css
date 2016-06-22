@@ -1,0 +1,55 @@
+.center {
+  text-align: center;
+}
+
+.header {
+  font-weight: bolder;
+  /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/27/Capitol_Building_Full_View.jpg");*/
+  min-height: 200px;
+  margin-top: -20px;
+  font-weight: bolder;
+  padding-top: 3.6em;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.blur {
+  text-decoration: underline;
+  border-radius: 3em;
+  background-color: black;
+  opacity: .7;
+  max-width: 450px;
+  text-align: center;
+  margin-left: 34%;
+}
+
+body {
+background-image: url("https://lh3.googleusercontent.com/pqsjfNlcTKUOQxlDlHFqb9r0Vfaf4eq6bCRhxaOXCV3esK4Wtln_WxuCtk12ipcpiuA=h900");
+}
+
+input {
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+hr.style18 {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 2px 0 0 0;
+  border-radius: 20px;
+}
+hr.style18:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 2px 0;
+  border-radius: 20px;
+}
