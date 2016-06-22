@@ -2,15 +2,15 @@ $(document).ready(function(){
   $('.billSearch').keypress(function(event){
     event.preventDefault();
     if(event.keyCode==13) {
-      $('div').removeClass('hiddenBills');
-      $('div.introContent').addClass('hiddenIntroConent');
+      $('div.hiddenBills').fadeIn(3000).removeClass('hiddenBills');
+      $('div.introContent').fadeOut(3000);
     }
   });
   $('.politicianSearch').keypress(function(event){
     event.preventDefault();
     if(event.keyCode==13) {
-      $('div').removeClass('hiddenPoliticians');
-      $('div.introContent').addClass('hiddenIntroConent');
+      $('div.hiddenPoliticians').fadeIn(3000).removeClass('hiddenPoliticians');
+      $('div.introContent').fadeOut(3000);
     }
   });
 });

@@ -4,13 +4,12 @@
 
 .header {
   font-weight: bolder;
-  /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/27/Capitol_Building_Full_View.jpg");*/
-  min-height: 200px;
-  margin-top: -20px;
+  /*min-height: 200px;*/
+  /*margin-top: -20px;*/
   font-weight: bolder;
-  padding-top: 3.6em;
-  background-repeat: no-repeat;
-  background-position: center;
+  padding-top: 4.5em;
+  /*background-repeat: no-repeat;*/
+  /*background-position: center;*/
   color: white;
 }
 
@@ -62,6 +61,23 @@ hr.style18:before {
   display: none;
 }
 
+/*.hiddenIntroConent {
+  display: none;
+}*/
+
 .hiddenIntroConent {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+
+.hide {
   display: none;
 }
+
+.fade {
+  opacity: 1;
+  transition: opacity .25s ease-in;
+  -moz-transition: opacity .25s ease-in;
+  -webkit-transition: opacity .25s ease-in;
+  }
