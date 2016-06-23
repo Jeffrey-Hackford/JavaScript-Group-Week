@@ -4,12 +4,8 @@
 
 .header {
   font-weight: bolder;
-  /*min-height: 200px;*/
-  /*margin-top: -20px;*/
   font-weight: bolder;
   padding-top: 4.5em;
-  /*background-repeat: no-repeat;*/
-  /*background-position: center;*/
   color: white;
 }
 
@@ -61,23 +57,19 @@ hr.style18:before {
   display: none;
 }
 
-/*.hiddenIntroConent {
-  display: none;
-}*/
-
 .hiddenIntroConent {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s 2s, opacity 2s linear;
 }
 
-.hide {
-  display: none;
+a {
+  position: absolute;
+  margin-top: 49.8%;
+  margin-left: 96%;
+  animation: blinker 2s linear infinite;
 }
 
-.fade {
-  opacity: 1;
-  transition: opacity .25s ease-in;
-  -moz-transition: opacity .25s ease-in;
-  -webkit-transition: opacity .25s ease-in;
-  }
+@keyframes blinker {
+  50% { opacity: 0.2; }
+}
